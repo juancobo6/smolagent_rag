@@ -1,1 +1,1 @@
-# smolagent_rag
+# Smolagent rag
