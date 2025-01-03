@@ -3,6 +3,7 @@ import os
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.retrievers import BM25Retriever
+from smolagents import Tool, LiteLLMModel, CodeAgent
 
 
 def get_source_docs():
