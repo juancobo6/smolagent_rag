@@ -30,7 +30,7 @@ def text_splitter(source_docs):
 
 class RetrieverTool(Tool):
     name = "retriever"
-    description = "Uses semantic search to retrieve the parts of documentation that could be most relevant to answer your query."
+    description = "This tool retrieves documents relevant to the prompt from a knowledge base using a BM25 retriever. Input the concept you want to search for as a string"
     inputs = {
         "query": {
             "type": "string",
